@@ -24,14 +24,19 @@ ChillBill is a personal accounting application that helps individuals and groups
 ## Installation
 
 ### Prerequisites
-- Python (>= v3.10)
-- Django (backend framework)
-- Node.js (for frontend, if using Next.js)
-- Tesseract OCR or Google Vision API (for receipt parsing)
-- Plaid or Flinks API (for financial aggregation)
-- MongoDB 
+Before you begin, make sure you have the following installed:
+
+- **Python (v3.10 or higher)**
+- **Django** (for backend)
+- **Node.js** (for frontend, if using Next.js)
+- **Tesseract OCR** or **Google Vision API** (for parsing receipts)
+- **Plaid** or **Flinks API** (for financial aggregation)
+- **MongoDB** (for database)
 
 ### Setup Instructions
+
+Follow these steps to get the project up and running:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/ChillBill.git
@@ -62,19 +67,21 @@ ChillBill is a personal accounting application that helps individuals and groups
    ```bash
    python manage.py runserver
    ```
+You should now be able to access the application locally.
+## Contributing
 
-## Contribution
-
-We welcome contributions! Here’s how you can help:
+We welcome your contributions! Here's how to get involved:
 
 ### Git Workflow
-1. **Git Flow**: Yes, we use Git Flow. Feature branches are created from `develop` and merged back after review.
-2. **Branch Naming**: Use the format `feature/your-feature-name`, `bugfix/your-bugfix-name`, or `hotfix/your-hotfix-name`.
-3. **Issue Tracking**: We use GitHub Issues to track bugs and feature requests.
-4. **Pull Requests**: Submit a pull request with a clear description of your changes. Ensure your code passes all tests and follows the project’s coding standards.
 
-### Steps to Contribute
-1. Open [an issue](https://github.com/UTSC-CSCC01-Software-Engineering-I/term-group-project-c01w25-project-ohamaland/issues/new/choose) to discuss your proposed changes.
-2. Fork the repository and create a new branch.
-3. Make your changes and test thoroughly.
-4. Submit a pull request, referencing the related issue.
+- **Git Flow**: We follow Git Flow, meaning feature branches are created from `develop` and merged back after review.
+- **Branch Naming**: Name your branches as `feature/your-feature-name`, `bugfix/your-bugfix-name`, or `hotfix/your-hotfix-name`.
+- **Issue Tracking**: All bugs and feature requests are tracked in [GitHub Issues](https://github.com/your-repository/issues).
+- **Pull Requests**: Submit a pull request with a detailed description of the changes you’ve made. Ensure your code passes all tests and follows our coding standards.
+
+### How to Contribute
+
+1. Open [an issue](https://github.com/UTSC-CSCC01-Software-Engineering-I/term-group-project-c01w25-project-ohamaland/issues/new/choose) to propose any changes you’d like to work on.
+2. Fork the repository and create a new branch for your changes.
+3. Make the necessary changes and test them thoroughly.
+4. Submit a pull request and reference the issue it addresses.
