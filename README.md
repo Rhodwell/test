@@ -29,7 +29,7 @@ ChillBill is a personal accounting application that helps individuals and groups
 - Node.js (for frontend, if using Next.js)
 - Tesseract OCR or Google Vision API (for receipt parsing)
 - Plaid or Flinks API (for financial aggregation)
-- MongoDB 
+- MongoDB (database)
 
 ### Setup Instructions
 1. Clone the repository:
