@@ -1,3 +1,6 @@
+# Table of Contents
+- [ChillBill](#chillbill:-personal-receipt-&-expense-manager)
+
 # ChillBill: Personal Receipt & Expense Manager
 
 ## Description
