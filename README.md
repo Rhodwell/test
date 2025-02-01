@@ -5,12 +5,12 @@
 ChillBill is a personal accounting application designed to help individuals and groups manage digital receipts, split expenses, detect recurring subscriptions, and generate meaningful spending insights. By providing a centralized dashboard, automated reminders, and advanced analytics, ChillBill simplifies personal and group financial management.
 
 ### Key Features
-- **Receipt Management**: Upload, store, and categorize receipts using OCR technology.
-- **Expense Splitting**: Create groups for splitting expenses among friends, family, or housemates.
-- **Financial Insights**: Track spending trends, category breakdowns, and predictive insights.
-- **Subscription Detection**: Identify recurring subscriptions and send reminders before renewal.
-- **Notifications**: Alerts for due payments, subscription renewals, overspending, and group expense updates.
-- **Security**: AES-256 encryption and protection against XSS, CSRF, SQL injection, and other vulnerabilities.
+- **Receipt Management:** Upload, store, and categorize receipts with OCR capabilities.
+- **Expense Splitting:** Easily handle shared expenses for trips, events, or household costs.
+- **Financial Insights & Analytics:** Track spending trends, category breakdowns, and get predictive insights.
+- **Subscription Detection & Management:** Identify recurring subscriptions and get reminders before they renew.
+- **Notifications:** Alerts for due payments, subscription renewals, overspending, and group expense updates.
+- **Security:** AES-256 encryption for stored data, robust authentication, and best practices to avoid common web vulnerabilities.
 
 ## Motivation
 
