@@ -122,23 +122,6 @@ We welcome contributions! Here’s how you can help:
 - **Offline Mode**: Log expenses offline and sync later.
 - **Security**: End-to-end encryption and protection against web vulnerabilities.
 
-## Market Research
-
-### Competitive Landscape
-- **Expense Tracking Apps (e.g., Expensify, Splitwise, Mint)**: Often lack integrated receipt OCR and granular group expense management.
-- **Subscription Management Services (e.g., Truebill/Rocket Money)**: Do not provide robust receipt storage or advanced expense splitting.
-- **Personal Finance Tools (e.g., YNAB, QuickBooks Self-Employed)**: Less specialized in receipt OCR and group expense splitting.
-
-### Key Trends in the Market
-- **Rise of FinTech Aggregators**
-- **Increasing Need for Subscription Oversight**
-- **Paperless & Contactless Payments**
-
-## Market Sizing Analysis
-- **TAM**: $1.08 billion in 2022, projected to reach $1.59 billion by 2030.
-- **SAM**: 30-40% of TAM in North America.
-- **SOM**: Targeting 50,000 – 200,000 users within the first few years.
-
 ## Conclusion
 
 ### Why This Product Matters
@@ -151,7 +134,3 @@ ChillBill addresses a growing demand for comprehensive, user-friendly financial 
 - **Scalable & Flexible**: Designed to grow with user needs.
 
 By prioritizing user needs, leveraging the latest technology, and ensuring security, ChillBill is positioned to stand out in the personal finance market.
-
----
-
-Feel free to adjust or expand this template as needed for your project!
