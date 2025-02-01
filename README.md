@@ -21,14 +21,6 @@ ChillBill is a personal accounting application designed to help individuals and 
 4. **Financial Visibility**: Most people lack a holistic view of their spending patterns. ChillBill aggregates receipts and bank transactions to provide actionable insights.
 5. **Security & Trust**: Users need confidence that their financial data is safe. ChillBill uses AES-256 encryption and robust security measures.
 
-### Why ChillBill?
-- **Paperless Organization**: Store all receipts digitally in one place.
-- **Time Savings**: Automated OCR and bank integrations reduce manual data entry.
-- **Transparency in Group Expenses**: Automatically calculate each person’s share.
-- **Subscription Oversight**: Detect recurring fees and get reminders for renewals.
-- **Actionable Insights**: Clear visualizations help users make better financial decisions.
-- **Security & Privacy**: AES-256 encryption and secure best practices ensure data safety.
-
 ## Installation
 
 ### Prerequisites
