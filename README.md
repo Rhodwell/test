@@ -24,90 +24,57 @@ ChillBill is a personal accounting application that helps individuals and groups
 ## Installation
 
 ### Prerequisites
+- Python (>= v3.10)
+- Django (backend framework)
+- Node.js (for frontend, if using Next.js)
+- Tesseract OCR or Google Vision API (for receipt parsing)
+- Plaid or Flinks API (for financial aggregation)
+- MongoDB 
 
-Before you begin, make sure you have the following installed:
+### Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ChillBill.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ChillBill
+   ```
+3. Set up the backend:
+   - Install Python dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Set up the database:
+     ```bash
+     python manage.py migrate
+     ```
+4. Set up the frontend:
+   - Install Node.js dependencies:
+     ```bash
+     npm install
+     ```
+   - Start the development server:
+     ```bash
+     npm run dev
+     ```
+5. Run the application:
+   ```bash
+   python manage.py runserver
+   ```
 
-- **Python (v3.10 or higher)**
-- **Django** (for backend)
-- **Node.js** (for frontend, if using Next.js)
-- **Tesseract OCR** or **Google Vision API** (for parsing receipts)
-- **Plaid** or **Flinks API** (for financial aggregation)
-- **MongoDB** (for database)
+## Contribution
 
-### Setting Up the Project
-
-Follow these steps to get the project up and running:
-
-#### 1. Clone the Repository
-
-Start by cloning the project to your local machine:
-
-```bash
-git clone https://github.com/your-username/ChillBill.git
-```
-
-#### 2. Navigate to the Project Directory
-
-Go into the project directory:
-
-```bash
-cd ChillBill
-```
-
-#### 3. Set Up the Backend
-
-- Install Python dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-- Set up the database by running migrations:
-
-```bash
-python manage.py migrate
-```
-
-#### 4. Set Up the Frontend
-
-- Install Node.js dependencies for the frontend:
-
-```bash
-npm install
-```
-
-- Start the frontend development server:
-
-```bash
-npm run dev
-```
-
-#### 5. Start the Application
-
-Now, you can start the backend server:
-
-```bash
-python manage.py runserver
-```
-
-You should now be able to access the application locally.
-
----
-
-## Contributing
-
-We welcome your contributions! Here's how to get involved:
+We welcome contributions! Here’s how you can help:
 
 ### Git Workflow
+1. **Git Flow**: Yes, we use Git Flow. Feature branches are created from `develop` and merged back after review.
+2. **Branch Naming**: Use the format `feature/your-feature-name`, `bugfix/your-bugfix-name`, or `hotfix/your-hotfix-name`.
+3. **Issue Tracking**: We use GitHub Issues to track bugs and feature requests.
+4. **Pull Requests**: Submit a pull request with a clear description of your changes. Ensure your code passes all tests and follows the project’s coding standards.
 
-- **Git Flow**: We follow Git Flow, meaning feature branches are created from `develop` and merged back after review.
-- **Branch Naming**: Name your branches as `feature/your-feature-name`, `bugfix/your-bugfix-name`, or `hotfix/your-hotfix-name`.
-- **Issue Tracking**: All bugs and feature requests are tracked in [GitHub Issues](https://github.com/UTSC-CSCC01-Software-Engineering-I/term-group-project-c01w25-project-ohamaland/issues).
-- **Pull Requests**: Submit a pull request with a detailed description of the changes you’ve made. Ensure your code passes all tests and follows our coding standards.
-
-### How to Contribute
-
-1. Open [an issue](https://github.com/UTSC-CSCC01-Software-Engineering-I/term-group-project-c01w25-project-ohamaland/issues/new/choose) to propose any changes you’d like to work on.
-2. Fork the repository and create a new branch for your changes.
-3. Make the necessary changes and test them thoroughly.
-4. Submit a pull request and reference the issue it addresses.
+### Steps to Contribute
+1. Open [an issue](https://github.com/UTSC-CSCC01-Software-Engineering-I/term-group-project-c01w25-project-ohamaland/issues/new/choose) to discuss your proposed changes.
+2. Fork the repository and create a new branch.
+3. Make your changes and test thoroughly.
+4. Submit a pull request, referencing the related issue.
