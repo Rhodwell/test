@@ -82,7 +82,7 @@ We welcome contributions! Here’s how you can help:
 4. **Pull Requests**: Submit a pull request with a clear description of your changes. Ensure your code passes all tests and follows the project’s coding standards.
 
 ### Steps to Contribute
-1. Open an issue to discuss your proposed changes.
+1. Open [an issue](https://github.com/UTSC-CSCC01-Software-Engineering-I/term-group-project-c01w25-project-ohamaland/issues/new/choose) to discuss your proposed changes.
 2. Fork the repository and create a new branch.
 3. Make your changes and test thoroughly.
 4. Submit a pull request, referencing the related issue.
