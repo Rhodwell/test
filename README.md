@@ -23,11 +23,7 @@ ChillBill is a personal accounting application that helps individuals and groups
 
 ## Installation
 
-Here’s a refined version that’s clearer and more intuitive for users to follow:
-
----
-
-## Prerequisites
+### Prerequisites
 
 Before you begin, make sure you have the following installed:
 
@@ -38,11 +34,11 @@ Before you begin, make sure you have the following installed:
 - **Plaid** or **Flinks API** (for financial aggregation)
 - **MongoDB** (for database)
 
-## Setting Up the Project
+### Setting Up the Project
 
 Follow these steps to get the project up and running:
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 Start by cloning the project to your local machine:
 
@@ -50,7 +46,7 @@ Start by cloning the project to your local machine:
 git clone https://github.com/your-username/ChillBill.git
 ```
 
-### 2. Navigate to the Project Directory
+#### 2. Navigate to the Project Directory
 
 Go into the project directory:
 
@@ -58,7 +54,7 @@ Go into the project directory:
 cd ChillBill
 ```
 
-### 3. Set Up the Backend
+#### 3. Set Up the Backend
 
 - Install Python dependencies:
 
@@ -72,7 +68,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 4. Set Up the Frontend
+#### 4. Set Up the Frontend
 
 - Install Node.js dependencies for the frontend:
 
@@ -86,7 +82,7 @@ npm install
 npm run dev
 ```
 
-### 5. Start the Application
+#### 5. Start the Application
 
 Now, you can start the backend server:
 
