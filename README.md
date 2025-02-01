@@ -32,7 +32,7 @@ ChillBill is a personal accounting application designed to help individuals and 
 ## Installation
 
 ### Prerequisites
-- Python (v3.8 or higher)
+- Python (v3.10 or higher)
 - Django (backend framework)
 - Node.js (for frontend, if using Next.js)
 - Tesseract OCR or Google Vision API (for receipt parsing)
