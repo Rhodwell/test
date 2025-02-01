@@ -2,7 +2,7 @@
 
 ## Description
 
-ChillBill is a personal accounting application designed to help individuals and groups manage digital receipts, split expenses, detect recurring subscriptions, and generate meaningful spending insights. By providing a centralized dashboard, automated reminders, and advanced analytics, ChillBill simplifies personal and group financial management.
+ChillBill is a personal accounting application that helps individuals and groups seamlessly manage and store digital receipts, split expenses, detect recurring subscriptions, and generate meaningful spending insights. By providing a centralized dashboard for receipts, automated reminders for bills and subscriptions, and advanced analytics, we aim to simplify personal and group financial management.
 
 ### Key Features
 - **Receipt Management:** Upload, store, and categorize receipts with OCR capabilities.
